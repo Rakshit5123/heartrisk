@@ -1,0 +1,20 @@
+# dependencies and build output
+node_modules/
+.next/
+out/
+# local config and secrets
+.env
+.env.*
+!.env.example
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+# local database (patient assessments must never be committed)
+server/data/*.db
+server/data/*.db-*
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
